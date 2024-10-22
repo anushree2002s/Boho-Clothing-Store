@@ -1,0 +1,143 @@
+* {
+    background-color: #d9d2cc;
+    font-family: "Eczar";
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-bar .logo {
+    text-transform: uppercase;
+    font-family: "El Messiri", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.icon {
+    color: #232222;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.icon:hover {
+    color: #555454;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar .nav {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0e0e0e;
+    margin: 1rem;
+}
+
+.hero {
+    position: relative; 
+    height: 80vh; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover; 
+}
+
+.hero-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.hero-content {
+    background-color: white;
+    opacity: 70%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: left;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.hero-header{
+    color: #0e0e0e;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+.hero-info{
+    color: #0e0e0e;
+    background-color: #fff;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+ 
+a.btn-shop{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+
+a.btn{
+    background-color: #B08269;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+a.btn:hover{
+    border: 1px solid black;
+    background-color: #B08269;
+}
+
+.bestsellers{
+    padding: 2rem;
+}
+
+.bestseller-heading{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.bestseller-info{
+    text-align: center;
+    color: #B08269;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.bestseller-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rating i{
+    color: #B08269;
+}
+
+.rating{
+    padding-bottom: 0.5rem;
+}
+
