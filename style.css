@@ -49,7 +49,7 @@
 .hero img {
     height: 100%; 
     width: 100%;
-    object-fit: cover; 
+  
 }
 
 .hero-overlay {
@@ -91,33 +91,32 @@ a.btn-shop{
 a.btn{
     background-color: #B08269;
     padding: 0.5rem;
-    border-radius: 20px;
 }
 
-a.btn:hover{
+a.btn:hover {
     border: 1px solid black;
     background-color: #B08269;
 }
 
-.bestsellers{
+.bestsellers, .newarrivals{
     padding: 2rem;
 }
 
-.bestseller-heading{
+.bestseller-heading, .newarrivals-heading{
     font-weight: bold;
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
 }
 
-.bestseller-info{
+.bestseller-info, .newarrivals-info{
     text-align: center;
     color: #B08269;
     font-weight: 500;
     padding-bottom: 1rem;
 }
 
-.bestseller-cards{
+.bestseller-cards, .newarrivals-cards{
     display: flex;
     justify-content: space-around;
     padding: 2rem;
@@ -141,3 +140,78 @@ a.btn:hover{
     padding-bottom: 0.5rem;
 }
 
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+a.btn-view-all {   
+    background-color:  #B08269;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px auto;
+    font-size: 1rem;
+}
+
+.btn-view-all:hover{
+    border: 1px solid black;
+    background-color: #B08269;
+}
+
+.mid-container{
+    background-color: #B08269 ;
+    padding: 5rem;
+    display: flex;
+    height: 50rem;
+    justify-content: center;
+}
+
+.mid-section-content{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    background-color: transparent;
+    color: #fff;
+    align-items: center;
+}
+
+ .mid-section-title{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.mid-section-content p{
+    text-align: center;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight:lighter;
+} 
+
+.btn-learn-more{
+    text-align: center;
+    width: 9rem;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #B08269;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+.btn-learn-more:hover{
+    border: 1px solid black;
+    color: black;
+    
+}
