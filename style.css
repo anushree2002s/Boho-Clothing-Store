@@ -3,7 +3,7 @@
     font-family: "Eczar";
 }
 
-body{
+body {
     background-color: #d9d2cc;
 }
 
@@ -25,6 +25,7 @@ body{
     color: #232222;
     font-size: 1.2rem;
     padding: 1rem;
+    background-color: transparent;
 }
 
 .icon:hover {
@@ -44,22 +45,21 @@ body{
 }
 
 .hero {
-    position: relative; 
-    height: 80vh; 
+    position: relative;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
 }
 
 .hero img {
-    height: 100%; 
+    height: 100%;
     width: 100%;
-  
 }
 
 .hero-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
 
 .hero-content {
     background-color: white;
@@ -72,85 +72,92 @@ body{
     padding: 1rem;
 }
 
-.hero-header{
+.hero-header {
     color: #0e0e0e;
     font-size: 2rem;
     font-weight: bold;
     background-color: white;
 }
 
-.hero-info{
+.hero-info {
     color: #0e0e0e;
     background-color: #fff;
     padding: 0.5rem;
     font-weight: 500;
 }
- 
-a.btn-shop{
+
+a.btn-shop {
     text-transform: uppercase;
     font-weight: 500;
     color: #fff;
 }
 
-a.btn{
-    background-color: #B08269;
+a.btn {
+    background-color: #b08269;
     padding: 0.5rem;
 }
 
 a.btn:hover {
     border: 1px solid black;
-    background-color: #B08269;
+    background-color: #b08269;
 }
 
-.bestsellers, .newarrivals{
+.bestsellers,
+.newarrivals {
     padding: 2rem;
 }
 
-.bestseller-heading, .newarrivals-heading, .instagram-heading{
+.bestseller-heading,
+.newarrivals-heading,
+.instagram-heading {
     font-weight: 600;
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
 }
 
-.bestseller-info, .newarrivals-info{
+.bestseller-info,
+.newarrivals-info {
     text-align: center;
-    color: #B08269;
+    color: #b08269;
     font-weight: 500;
     padding-bottom: 1rem;
 }
 
-.bestseller-cards, .newarrivals-cards{
+.bestseller-cards,
+.newarrivals-cards {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
 }
 
-.card{
+.card {
     width: 18rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-title{
+.card-title {
     font-size: 1rem;
     font-weight: 600;
 }
 
-.rating i{
-    color: #B08269;
+.rating i {
+    color: #b08269;
 }
 
-.rating{
+.rating {
     padding-bottom: 0.5rem;
 }
 
-.btn-wrapper{
+.btn-wrapper {
     display: flex;
     justify-content: center;
 }
 
-a.btn-view-all {   
-    background-color:  #B08269;
+a.btn-view-all {
+    background-color: #b08269;
     padding: 0.7rem;
     border-radius: 0.5rem;
     border: none;
@@ -161,20 +168,20 @@ a.btn-view-all {
     font-size: 1rem;
 }
 
-.btn-view-all:hover{
+.btn-view-all:hover {
     border: 1px solid black;
-    background-color: #B08269;
+    background-color: #b08269;
 }
 
-.mid-container{
-    background-color: #B08269 ;
+.mid-container {
+    background-color: #b08269;
     padding: 5rem;
     display: flex;
     height: 50rem;
     justify-content: center;
 }
 
-.mid-section-content{
+.mid-section-content {
     display: flex;
     flex-direction: column;
     padding: 7rem;
@@ -183,7 +190,7 @@ a.btn-view-all {
     align-items: center;
 }
 
- .mid-section-title{
+.mid-section-title {
     font-size: 2rem;
     font-weight: bold;
     font-family: "El Messiri", sans-serif;
@@ -192,19 +199,19 @@ a.btn-view-all {
     padding: 1rem;
 }
 
-.mid-section-content p{
+.mid-section-content p {
     text-align: center;
     background-color: transparent;
     font-size: 1rem;
-    font-weight:lighter;
-} 
+    font-weight: lighter;
+}
 
-.btn-learn-more{
+.btn-learn-more {
     text-align: center;
     width: 9rem;
     border-radius: 10px;
     background-color: #fff;
-    color: #B08269;
+    color: #b08269;
     padding: 0.7rem;
     border-radius: 0.5rem;
     border: none;
@@ -214,30 +221,22 @@ a.btn-view-all {
     text-decoration: none;
 }
 
-.btn-learn-more:hover{
+.btn-learn-more:hover {
     border: 1px solid black;
     color: black;
 }
 
-/* .instagram-container{
-
-}
-
-.instagram-heading{
-    text-transform: capitalize;
-} */
-
-.footer-container{
-    background-color: #B8A293;
+.footer-container {
+    background-color: #b8a293;
     height: auto;
     flex-wrap: wrap;
 }
 
-.footer-top-section{
-    background-color:inherit
+.footer-top-section {
+    background-color: transparent;
 }
 
-.footer-logo{
+.footer-logo {
     font-family: "El Messiri", sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -247,36 +246,37 @@ a.btn-view-all {
     padding: 1rem;
 }
 
-.socials{
+.socials {
     display: flex;
     justify-content: center;
-   background-color: inherit;
+    background-color: transparent;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     justify-content: center;
     gap: 7rem;
-    background-color:inherit; 
+    background-color: transparent !important;
 }
 
-.footer-links h5{
+.footer-links h5 {
     margin-bottom: 0.5rem;
     font-weight: 500;
     font-family: "El Messiri", sans-serif;
     color: #0e0e0e;
 }
 
-.footer-links ul{
+.footer-links ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-links ul li{
+.footer-links ul li {
     margin-bottom: 0.5rem;
 }
 
-.footer-links ul li a{
+.footer-links ul li a {
+    background-color: transparent;
     text-decoration: none;
     color: #0e0e0e;
     font-family: "El Messiri", sans-serif;
@@ -284,26 +284,81 @@ a.btn-view-all {
 
 .footer-links ul li a:hover {
     color: #555454;
-  }
-
-.contact p{
-    margin: 0.5rem;
-    color: #0e0e0e;
-   
 }
 
-.footer-bottom{
-    background-color: #B8A293;
+.contact p {
+    margin: 0.5rem;
+    color: #0e0e0e;
+    font-family: "El Messiri", sans-serif;
+}
+
+.footer-bottom {
+    background-color: #b8a293;
     text-align: center;
     font-size: 0.8rem;
     border-top: 1px solid #0e0e0e;
     padding-top: 10px;
 }
 
-.footer-bottom p{
+.footer-bottom p {
     background-color: transparent;
     margin: 0;
     padding: 0;
     color: #0e0e0e;
     font-family: "El Messiri", sans-serif;
+}
+
+#welcomeModal{
+    background-color: transparent;
+}
+
+.modal-body h1 {
+    font-weight: 900;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    font-family: "El Messiri", sans-serif;
+}
+
+.modal-body a.pre-order-btn {
+    color: #fff;
+    background-color: #b8a293;
+    padding: 0.5rem;
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.modal-body a.pre-order-btn:hover {
+    background-color: #b8a293;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.modal-body a.no-thanks-btn {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.modal-body a.no-thanks-btn:hover {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 0.5rem;
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
+}
+
+.modal-body form input{
+    width: 70%;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
