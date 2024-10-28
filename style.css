@@ -256,7 +256,7 @@ a.btn-view-all {
     display: flex;
     justify-content: center;
     gap: 7rem;
-    background-color: transparent !important;
+    background-color: #b8a293;
 }
 
 .footer-links h5 {
@@ -264,19 +264,23 @@ a.btn-view-all {
     font-weight: 500;
     font-family: "El Messiri", sans-serif;
     color: #0e0e0e;
+    background-color: #b8a293;
 }
 
 .footer-links ul {
     list-style: none;
     padding: 0;
+    background-color: #b8a293;
 }
 
 .footer-links ul li {
     margin-bottom: 0.5rem;
+    background-color: #b8a293;
 }
 
-.footer-links ul li a {
-    background-color: transparent;
+.footer-links ul li a,
+.footer-links ul li p {
+    background-color: #b8a293;
     text-decoration: none;
     color: #0e0e0e;
     font-family: "El Messiri", sans-serif;
@@ -286,10 +290,17 @@ a.btn-view-all {
     color: #555454;
 }
 
+.footer-links .products,
+.about-us,
+.contact {
+    background-color: #b8a293;
+}
+
 .contact p {
     margin: 0.5rem;
     color: #0e0e0e;
     font-family: "El Messiri", sans-serif;
+    background-color: #b8a293;
 }
 
 .footer-bottom {
@@ -308,7 +319,7 @@ a.btn-view-all {
     font-family: "El Messiri", sans-serif;
 }
 
-#welcomeModal{
+#welcomeModal {
     background-color: transparent;
 }
 
@@ -354,7 +365,7 @@ a.btn-view-all {
     width: 70%;
 }
 
-.modal-body form input{
+.modal-body form input {
     width: 70%;
     padding: 0.5rem 1rem;
     display: inline-block;
