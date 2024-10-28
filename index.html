@@ -50,16 +50,28 @@
         <a href="#" class="icon"><i class="bi bi-youtube"></i></a>
         <a href="#" class="icon"><i class="bi bi-person"></i></a>
         <a href="#" class="icon"><i class="bi bi-bag"></i></a>
+        <div class="icon hamburger-menu" onclick="showSidebar()">
+          <i class="bi bi-list"></i>
+        </div>
+
       </div>
     </header>
 
     <!-- nav bar -->
      <div class="nav-bar-container">
-      <div class="hamburger-menu" onclick="toggleMenu()">
-        <i class="bi bi-list"></i>
-      </div>
     
-    <div class="nav-bar">
+    <div class="nav-bar hideOnMobile">
+      <a href="#" class=" nav">Home</a>
+      <a href="#" class=" nav">Shop</a>
+      <a href="#" class=" nav">About Us</a>
+      <a href="#" class=" nav">Gallery</a>
+      <a href="#" class=" nav">FAQs</a>
+      <a href="#" class=" nav">Blog</a>
+      <a href="#" class=" nav">Contact</a>
+    </div>
+
+    <div class="sidebar">
+      <div class="icon " onclick="hideSidebar()"> <i class="bi bi-x"></i></div>
       <a href="#" class="nav">Home</a>
       <a href="#" class="nav">Shop</a>
       <a href="#" class="nav">About Us</a>
