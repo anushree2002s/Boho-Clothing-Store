@@ -1,14 +1,10 @@
 * {
-    background-color: #d9d2cc;
     font-family: "Eczar";
-}
-
-body {
-    background-color: #d9d2cc;
 }
 
 /* header */
 .header-bar {
+    background-color: #d9d2cc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +31,7 @@ body {
 
 /* nav */
 .nav-bar-container {
+    background-color: #d9d2cc;
     position: relative;
 }
 
@@ -50,6 +47,10 @@ body {
     text-decoration: none;
     color: #0e0e0e;
     margin: 1rem;
+}
+
+.nav-bar .nav:hover{
+    color: #555454;
 }
 
 .hamburger-menu {
@@ -106,6 +107,7 @@ body {
     height: 70vh;
     width: 100%;
     overflow: hidden;
+    background-color: #d9d2cc
 }
 
 .hero img {
