@@ -426,7 +426,8 @@ a.btn-view-all {
 
 /* modal */
 #welcomeModal {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
 }
 
 .modal-body h1 {
@@ -479,3 +480,4 @@ a.btn-view-all {
     border-radius: 4px;
     box-sizing: border-box;
 }
+

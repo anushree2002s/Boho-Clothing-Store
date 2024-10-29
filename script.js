@@ -10,10 +10,16 @@ function showSidebar() {
   }
   
 // script for the modal
-$(document).ready(function(){       
-    $('#welcomeModal').modal('show');
-     }); 
+     function showModal() {
+      const modal = document.getElementById('welcomeModal');
+      modal.style.display = 'block'; 
+    }
 
-// document.querySelector('.no-thanks-btn').addEventListener('click', function(){
-//     $('#welcomeModal').modal('.hide');
-// })
+    function closeModal() {
+      const modal = document.getElementById('welcomeModal');
+      modal.style.display = 'none';
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      showModal(); 
+    });
